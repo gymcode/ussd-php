@@ -1,0 +1,5 @@
+<?php
+
+// declaring variables 
+
+?>
