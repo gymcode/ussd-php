@@ -21,13 +21,16 @@ switch ($text) {
         $response .= "2. My Account Balance"; 
         break;
 
-    case '':
+    case '2':
         // TODO: this is the frist request// note how we start with CON
-        $response = "CON what would you like to check /n"; 
-        $response = "1. My Account Number";
-        $response = "2. My Phone Number"; 
+        $response = "END Your phone nummber is ".$phone_number;       
         break;   
     
+    case '1*1':
+        // TODO: this is the frist request// note how we start with CON
+        $response = "END Your phone nummber is ".$phone_number;       
+        break; 
+
     default:
         # code...
         break;
