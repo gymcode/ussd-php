@@ -36,7 +36,9 @@ switch ($text) {
 
     case '1*2':
         // TODO: this is the frist request// note how we start with CON
-        $response = "END Your phone nummber is ".$phone_number;       
+        $acc_bal = "GH 500";
+
+        $response = "END Your Account Balance is ".$acc_bal;       
         break; 
 
     default:
