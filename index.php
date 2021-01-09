@@ -28,6 +28,14 @@ switch ($text) {
     
     case '1*1':
         // TODO: this is the frist request// note how we start with CON
+        $ACCNUM = "ACC1001";
+
+        //TODO: note this is a terminal request therefore it starts with an END
+        $response = "END Your account number is ".$ACCNUM;
+        break; 
+
+    case '1*2':
+        // TODO: this is the frist request// note how we start with CON
         $response = "END Your phone nummber is ".$phone_number;       
         break; 
 
