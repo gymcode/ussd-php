@@ -42,7 +42,6 @@ switch ($text) {
         break; 
 
     default:
-        # code...
         break;
 }
 
