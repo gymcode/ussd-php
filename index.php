@@ -41,8 +41,10 @@ switch ($text) {
         $response = "END Your Account Balance is ".$acc_bal;       
         break; 
 
-    default:
+    default:    
         break;
 }
+
+    
 
 ?>
