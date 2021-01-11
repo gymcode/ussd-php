@@ -45,6 +45,7 @@ switch ($text) {
         break;
 }
 
-    
+    header('Content-type; text/plain'); 
+    echo $response; 
 
 ?>
